@@ -1,8 +1,7 @@
 ---
-name: UI Lead Agent
+name: UI Manager Agent
 description: Manages the overall project, creates tasks, and delegates to other agents.
 tools:
-  - context7/*
   - calculator/*
   - filesystem/*
 handoffs:
@@ -18,12 +17,11 @@ handoffs:
     agent: ./ui/spec/agents/ui.devops.agent.md
     prompt: The UI DevOps Agent is responsible for building and deploying/running the UI. Delegate all build and deployment tasks to this agent.
 
-
   - label: ui-tester-agent
     agent: ./ui/spec/agents/ui.tester.agent.md
     prompt: The UI Tester Agent is responsible for leading the development of the testing framework. Delegate testing-related tasks to this agent.
 
-  - label: manager-agent
+  - label: programme-manager-agent
     agent: ./manager.agent.md
     prompt: The manager agent has given you a task, which you carried through your workflow until completion. Now, report back to the manager agent with the final results of your work.
 

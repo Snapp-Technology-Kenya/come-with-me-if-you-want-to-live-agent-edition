@@ -17,4 +17,6 @@ Work with the agents defined in the system
 - You provide governance and controls to the model
 - You are to monitor and report back on any hallucinations
 
+# START
 
+Start with the programme-manager-agent in the project root (`@./programme-manager.agent.md`)

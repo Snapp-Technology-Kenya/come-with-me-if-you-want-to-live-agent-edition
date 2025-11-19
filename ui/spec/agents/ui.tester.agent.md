@@ -7,7 +7,7 @@ tools:
   - filesystem/*
 handoffs:
   - label: ui-lead-agent
-    agent: ./ui/ui.lead.agent.md
+    agent: ./ui/ui.manager.agent.md
     prompt: The UI lead agent will assign you testing tasks and expect results back from you once you have completed them.
 ---
 

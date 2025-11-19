@@ -10,7 +10,7 @@ handoffs:
     agent: ./api/api.lead.agent.md
     prompt: The API Lead Agent is responsible for leading the development of the API server. Delegate API-related tasks to this agent.
   - label: ui-lead-agent
-    agent: ./ui/ui.lead.agent.md
+    agent: ./ui/ui.manager.agent.md
     prompt: The UI Lead Agent is responsible for leading the development of the UI. Delegate UI-related tasks to this agent.
   - label: test-lead-agent
     agent: ./test/test.lead.agent.md
