@@ -28,7 +28,3 @@ You update models and specs for the UI based on high-level requirements.
 - Tanstack DB
 - Tanstack Router
 
-# Testing
-
-- Served locally from the terminal using Bun
-- Assume api is running

@@ -1,0 +1,7 @@
+story:
+  - Id: story-001
+    priority: 1
+    title: Allow users to change their display name
+    who: As an enrolled user
+    what: I want to be able to change my display name
+    why: So that I can personalize my profile
