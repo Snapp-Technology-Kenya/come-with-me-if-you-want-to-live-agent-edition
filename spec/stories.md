@@ -30,4 +30,3 @@ story:
 All stories are maintained in yaml in the following file:
 
 @./spec/stories.yaml
-
